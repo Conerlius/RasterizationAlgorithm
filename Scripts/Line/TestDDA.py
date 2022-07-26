@@ -18,9 +18,6 @@ img =numpy.ones((screen_height,screen_width,3),dtype=numpy.uint8)
 
 
 def setPixel(x, y):
-    # img[x, y, 0] = 1
-    # img[x, y, 1] = 1
-    # img[x, y, 2] = 1
     if y >= screen_width:
         return
     if x >= screen_height:
